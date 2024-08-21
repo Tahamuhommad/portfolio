@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -8,6 +9,11 @@ export default function Home() {
       <p>This is my portfolio website.This is made by me by using next.js.To see more about me click go to about 
         
         </p>
+        <Image
+        src={require("../../components/images/port.jpg")}
+        alt="background"
+        width={12000}
+        height={300}/>
     </div>
   );
 }

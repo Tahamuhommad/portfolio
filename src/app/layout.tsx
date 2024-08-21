@@ -20,7 +20,10 @@ export default function RootLayout({
       <body className={inter.className}>
         <p className="font-serif bg-slate-600">Taha</p>
         <Navbar />
-        {children}</body>
+        {children}
+        <p className="text-gray-600">contact me on <a href="https://www.instagram.com/muhammadtaha_5575">instagram</a>
+        </p>
+        </body>
     </html>
   );
 }

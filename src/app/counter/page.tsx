@@ -5,9 +5,15 @@ export default function Counter() {
     const [count, setCount] = useState(0)
     return (
     <div className="bg-gradient-to-r from-blue-600 to-pink-700">
-        <button onClick={() => setCount(count + 1)}>counter = {count}</button>
+        <button onClick={() => setCount(count + 1)} className="border-4 border-black hover:text-teal-950">click here to increase count</button>
         <br />
-        <button onClick={() => setCount(0)}>reset</button>
+        <br />
+
+        <button className="flex text-center">{count}</button>
+        <br />
+        <br />
+        <br />
+        <button onClick={() => setCount(0)} className="border-4 border-blue-950">reset</button>
     </div>
     )
 }

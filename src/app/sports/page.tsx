@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Sports(){
     return(
         <div className="bg-gray-800">
@@ -6,6 +8,13 @@ export default function Sports(){
             <p className="text-cyan-800">my favourite sports is cricket.I also watch wrestling,football and olympics.
                 my favourite cricketer is virat kohli and babar azam.My favourite wrestler is roman reigns.                
                                               </p>
+                <Image
+                src={require("../../../components/images/sports.jpeg")}
+                alt="cricket" 
+                width={1000}
+                
+                />
+
         </div>
     )
 }
