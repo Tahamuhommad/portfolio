@@ -1,6 +1,6 @@
 export default function Studies(){
     return(
-        <div className="bg-gradient-to-r from-blue-600 to-pink-700">
+        <div className="bg-gradient-to-r from-teal-700 to-blue-950">
             <h1>My educational background</h1>
             <p>in class one  i passed with 2nd rank
                 <br />

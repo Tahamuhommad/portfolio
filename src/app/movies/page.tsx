@@ -1,10 +1,18 @@
+import Image from "next/image";
+
 export default function Movies() {
     return (
-        <div className="bg-blue-900">
+        <div className="bg-gradient-to-r from-teal-700 to-blue-950">
             <h1>Movies</h1>
-            <p>I have watched many movies.
-                My favourite movie is <a href="https://en.wikipedia.org/wiki/Bhool_Bhooliyan_2" className="text-yellow-300 hover:text-red-700">Bhool Bhooliyan 2</a>
+            <p>I love watching movies and i watched many movies and I like mostly action and horror movies 
+                my favourite movie is fast and furious series...
             </p>
+            <Image 
+            src={require("../../../components/images/movie1.jpeg")}
+            alt="movie background"
+            width={1200}
+            height={800}
+            className="w{1200} "/>
         </div>
     );
 }

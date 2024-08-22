@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Gaming(){
     return(
-        <div className="bg-gradient-to-r from-pink-600 to-sky-600">
+        <div className="bg-gradient-to-r from-teal-700 to-blue-950">
             <h1 className="bg-cyan-800 hover:text-red-950">Gaming Experience</h1>
             <p>I have played a lot of games and my favourite game is DriveClub.
                  DriveClub is on ps-4. this is my favourite game because of its clear graphics and gaming experience.
@@ -17,7 +17,7 @@ export default function Gaming(){
                     <p>Real Racing 3 is also my one of the favourite games.
                         it is created by EA.
                         i played it and love it.
-                        it has almost all real world cars.</p>
+                        it has almost all real world cars</p>
                         <br />
                         <Image 
                         src={require("../../../components/images/gaming1.jpeg")}

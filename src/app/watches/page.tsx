@@ -1,6 +1,6 @@
 export default function Watches(){
     return(
-        <div className="bg-gradient-to-t from-slate-800 to-red-700">
+        <div className="bg-gradient-to-r from-teal-700 to-blue-950">
             <h1>Watches</h1>
             <p>I love watches and i have g-shock ga-100c-4a red color watch.
                 this is such a unique watch made by casio (g-shock) and it cost almost 120 dollars.
