@@ -27,22 +27,23 @@ export default function Header(){
 
 
                 <ul>
-         <li className="flex justify-items-center space-x-5"><Link href={"/"}>Home</Link>
-            <Link href={"/about"}>About</Link>
+         <li className="flex justify-items-center space-x-5"><Link href={"/"}>Home</Link></li>
+         <br />
+          <li><Link href={"/about"}>About</Link></li>
             <br />
-            <Link href={"/gaming"}>Gaming</Link>
+            <li>   <Link href={"/gaming"}>Gaming</Link></li>
             <br />
-            <Link href={"/movies"}>movies</Link>
+            <li> <Link href={"/movies"}>movies</Link></li>
             <br />
-            <Link href={"/cars"}> cars</Link>
+            <li> <Link href={"/cars"}> cars</Link></li>
             <br />
-            <Link href={"/counter"}>counter</Link>
+            <li> <Link href={"/counter"}>counter</Link></li>
             <br />
-            <Link href={"/sports"}>sports</Link>
+            <li> <Link href={"/sports"}>sports</Link></li>
             <br />
-            <Link href={"/watches"}>Watches</Link>
+            <li> <Link href={"/watches"}>Watches</Link></li>
             <br />
-            <Link href={"/studies"}>educational</Link></li>
+            <li> <Link href={"/studies"}>educational</Link></li>
             <br />
            </ul>
 
@@ -52,7 +53,7 @@ export default function Header(){
                 </Sheet>
 
                 <ul className="gap-x-4 hidden md:flex">
-
+                    
          <li className="flex justify-items-center space-x-5"><Link href={"/"}>Home</Link>
             <Link href={"/about"}>About</Link>
             <Link href={"/gaming"}>Gaming</Link>
@@ -70,3 +71,72 @@ export default function Header(){
         </div>
     )
 }
+// import { Menu } from "lucide-react";
+// import Link from "next/link";
+// import {
+//     Sheet,
+//     SheetContent,
+//     SheetDescription,
+//     SheetHeader,
+//     SheetTitle,
+//     SheetTrigger,
+// } from "@/components/ui/sheet"
+
+
+// function Header() {
+//     return (
+//         <header className="flex justify-between items-center p-2 bg-gray-200">
+//             {/* Logo - left side */}
+//             <h1 className="text-4xl font-bold text-yellow-500">H.</h1>
+
+//             {/* Navigation - Right side */}
+//             <nav>
+
+//                 <Sheet>
+//                     <SheetTrigger className="md:hidden">
+//                         <Menu />
+//                     </SheetTrigger>
+//                     <SheetContent>
+//                             <ul>
+//                                 <li>
+//                                     <Link href="/">
+//                                         Home
+//                                     </Link>
+//                                 </li>
+//                                 <li>
+//                                     <Link href="/about">
+//                                         About
+//                                     </Link>
+//                                 </li>
+//                                 <li>
+//                                     <Link href="/contact">
+//                                         Contact
+//                                     </Link>
+//                                 </li>
+//                             </ul>
+//                     </SheetContent>
+//                 </Sheet>
+
+//                 <ul className="gap-x-4 hidden md:flex">
+//                     <li>
+//                         <Link href="/">
+//                             Home
+//                         </Link>
+//                     </li>
+//                     <li>
+//                         <Link href="/about">
+//                             About
+//                         </Link>
+//                     </li>
+//                     <li>
+//                         <Link href="/contact">
+//                             Contact
+//                         </Link>
+//                     </li>
+//                 </ul>
+//             </nav>
+//         </header>
+//     )
+// }
+
+// export default Header;
