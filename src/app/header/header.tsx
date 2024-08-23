@@ -23,7 +23,7 @@ export default function Header(){
                     <SheetTrigger className="md:hidden">
                          <Menu />
                      </SheetTrigger>
-                     <SheetContent>
+                     <SheetContent className="bg-cyan-950 text-emerald-500">
 
 
                 <ul>
