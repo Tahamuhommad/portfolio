@@ -27,23 +27,23 @@ export default function Header(){
 
 
                 <ul>
-         <li className="flex justify-items-center space-x-5"><Link href={"/"}>Home</Link></li>
+         <li className="flex justify-items-center space-x-5"><Link href={"/"}  className="hover:underline">Home</Link></li>
          <br />
-          <li><Link href={"/about"}>About</Link></li>
+          <li><Link href={"/about"} className="hover:underline">About</Link></li>
             <br />
-            <li>   <Link href={"/gaming"}>Gaming</Link></li>
+            <li>   <Link href={"/gaming"}  className="hover:underline">Gaming</Link></li>
             <br />
-            <li> <Link href={"/movies"}>movies</Link></li>
+            <li> <Link href={"/movies"}  className="hover:underline">movies</Link></li>
             <br />
-            <li> <Link href={"/cars"}> cars</Link></li>
+            <li> <Link href={"/cars"}  className="hover:underline"> cars</Link></li>
             <br />
-            <li> <Link href={"/counter"}>counter</Link></li>
+            <li> <Link href={"/counter"}  className="hover:underline">counter</Link></li>
             <br />
-            <li> <Link href={"/sports"}>sports</Link></li>
+            <li> <Link href={"/sports"}  className="hover:underline">sports</Link></li>
             <br />
-            <li> <Link href={"/watches"}>Watches</Link></li>
+            <li> <Link href={"/watches"}  className="hover:underline">Watches</Link></li>
             <br />
-            <li> <Link href={"/studies"}>educational</Link></li>
+            <li> <Link href={"/studies"}  className="hover:underline">educational</Link></li>
             <br />
            </ul>
 
