@@ -15,7 +15,7 @@ export default function Header(){
     return(
         <div>
             <header className="flex justify-between font-semibold bg-cyan-950 p-3 justify-items-center space-x-5 text-emerald-500">
-                <h1 className="font-semibold text-4xl text-emerald-500">T..</h1>
+                <h1 className="font-semibold text-4xl text-emerald-500 font-serif">T..</h1>
               
 
                <nav>
